@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
 
-                Log.e("onErrorResponse", "That didn't work!");
+                Log.e("onErrorResponse", "That didn't work!" + url);
 
             }
         });
